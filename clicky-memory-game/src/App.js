@@ -13,6 +13,7 @@ class App extends Component {
 
   handleIncrement = () => {
     this.setState({ score: this.state.score + 1 });
+    cardImages.sort(function (a, b) { return 0.5 - Math.random() });
   }
 
 
@@ -30,6 +31,8 @@ class App extends Component {
 
     );
   }
+
+
 
 }
 
