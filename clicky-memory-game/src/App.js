@@ -16,6 +16,7 @@ class App extends Component {
     cardImages.sort(function (a, b) { return 0.5 - Math.random() });
   }
 
+  // still trying to figure out the match function to determine if what the user clicked had been clicked before...
 
   render() {
     return (
